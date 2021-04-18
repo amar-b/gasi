@@ -1,0 +1,6 @@
+.vscode/*
+__init__.py
+__pycache__/
+*.pyc
+*.egg-info
+*.DS_Store

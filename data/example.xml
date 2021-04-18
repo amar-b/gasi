@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<instance>
+    <network>
+        <nodes>
+            <node id="1" type="0">
+                <cx>0.0</cx>
+                <cy>0.0</cy>
+            </node>
+            <node id="2" type="1">
+                <cx>1.0</cx>
+                <cy>2.0</cy>
+            </node>
+            <node id="3" type="1">
+                <cx>3.0</cx>
+                <cy>4.0</cy>
+            </node>
+            <node id="4" type="1">
+                <cx>5.0</cx>
+                <cy>6.0</cy>
+            </node>
+        </nodes>
+    </network>
+    <fleet>
+        <vehicle_profile>
+            <capacity>26.0</capacity>
+        </vehicle_profile>
+    </fleet>
+    <requests>
+        <request id="1" node="2">
+            <quantity>19.0</quantity>
+        </request>
+        <request id="2" node="3">
+            <quantity>21.0</quantity>
+        </request>
+        <request id="3" node="4">
+            <quantity>6.0</quantity>
+        </request>
+    </requests>
+</instance>
