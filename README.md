@@ -1,9 +1,13 @@
 # How to use the GASI program to solve the capacitated VRP problem
 1. In the root directorym install using pip
-`$ pip install .`
+```
+$ pip install .
+```
 
 2. Run the script `gasi-vrp` to use the program to solve an instance of the vehicle routing problem serialized in an xml file
-`$ gasi-vrp path/to/input_file.xml -o path/to/output_file.json`
+```
+$ gasi-vrp path/to/input_file.xml -o path/to/output_file.json
+```
 
 3. For help with overriding default algorithm parameters use the help option
     ```
